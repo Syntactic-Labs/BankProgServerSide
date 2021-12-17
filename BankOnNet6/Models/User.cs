@@ -3,7 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace BankOnNet6.Models
 {
-    [Index("CardNumber", "UserName", IsUnique = true)]
+    [Index("CardNumber", IsUnique = true)]
+    [Index("UserName", IsUnique = true)]
     public class User
     {
         [Key]
