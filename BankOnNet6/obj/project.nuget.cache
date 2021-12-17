@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7AgpnIGFi7xTF3/hoch3UOBX+z3lahcK6YuK41oCHcpGybp3JnHjRGzHdX1QwGqC9DxCkgPIi41xLwknCwTzag==",
+  "dgSpecHash": "EwiM85NrIRS4vbUN3bp/GX6Gb3jXi3sLSR7UPARAQ+XZLFarIktBmpNyyQZCtr9FymUNLgpZ6dEg/rlR+b7x8Q==",
   "success": true,
-  "projectFilePath": "C:\\repos\\BankOnNet6\\BankOnNet6\\BankOnNet6.csproj",
+  "projectFilePath": "C:\\repos\\BankProg\\BankOnNet6\\BankOnNet6\\BankOnNet6.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\walke\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\walke\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

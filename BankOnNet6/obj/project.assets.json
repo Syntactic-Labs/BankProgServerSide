@@ -1864,11 +1864,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\BankOnNet6\\BankOnNet6\\BankOnNet6.csproj",
+      "projectUniqueName": "C:\\repos\\BankProg\\BankOnNet6\\BankOnNet6\\BankOnNet6.csproj",
       "projectName": "BankOnNet6",
-      "projectPath": "C:\\repos\\BankOnNet6\\BankOnNet6\\BankOnNet6.csproj",
+      "projectPath": "C:\\repos\\BankProg\\BankOnNet6\\BankOnNet6\\BankOnNet6.csproj",
       "packagesPath": "C:\\Users\\walke\\.nuget\\packages\\",
-      "outputPath": "C:\\repos\\BankOnNet6\\BankOnNet6\\obj\\",
+      "outputPath": "C:\\repos\\BankProg\\BankOnNet6\\BankOnNet6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\walke\\AppData\\Roaming\\NuGet\\NuGet.Config",
