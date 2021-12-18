@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BankOnNet6.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20211218162553_init")]
-    partial class init
+    [Migration("20211218174102_made cardnumber and pin a string")]
+    partial class madecardnumberandpinastring
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -37,9 +37,10 @@ namespace BankOnNet6.Migrations
                         .HasMaxLength(128)
                         .HasColumnType("nvarchar(128)");
 
-                    b.Property<int>("CardNumber")
+                    b.Property<string>("CardNumber")
+                        .IsRequired()
                         .HasMaxLength(16)
-                        .HasColumnType("int");
+                        .HasColumnType("nvarchar(16)");
 
                     b.Property<decimal?>("Checking")
                         .HasPrecision(14, 2)
@@ -73,9 +74,10 @@ namespace BankOnNet6.Migrations
                         .HasMaxLength(12)
                         .HasColumnType("nvarchar(12)");
 
-                    b.Property<int>("Pin")
+                    b.Property<string>("Pin")
+                        .IsRequired()
                         .HasMaxLength(6)
-                        .HasColumnType("int");
+                        .HasColumnType("nvarchar(6)");
 
                     b.Property<decimal?>("Saving")
                         .HasPrecision(14, 2)

@@ -17,9 +17,9 @@ namespace BankOnNet6.Models
 
 
         [MinLength(16), MaxLength(16), Required]
-        public int CardNumber { get; set; } = 0;
+        public string CardNumber { get; set; } = String.Empty;
         [MinLength(6), MaxLength(6), Required]
-        public int Pin { get; set; } = 0;
+        public string Pin { get; set; } = String.Empty;
         [Precision(14,2)]
         public decimal? Checking { get; set; } = decimal.Zero;
         [Precision(14,2)]
